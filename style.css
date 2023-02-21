@@ -27,6 +27,8 @@ html {
     height: 3em;
 
     font-size: 18px;
+    border-radius: 5px;
+    
 }
 
 .calculator-body {
@@ -40,8 +42,13 @@ html {
 
     font-size: 19px;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.number-button:hover, .operator-button:hover{
+    background-color: #b8b8b8;
+    cursor: pointer;
+}
 
 
 @media(max-width:850px){
